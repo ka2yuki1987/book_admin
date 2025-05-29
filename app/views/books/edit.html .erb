@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookAdmin</title>
+</head>
+
+<body>
+    <h1>Editing Task</h1>
+ 
+    <%= render 'form', task: @task %>
+
+    <%= link_to 'Show', @task %> |
+    <%= link_to 'Back', tasks_pas %>
+</body>
+
+</html>
